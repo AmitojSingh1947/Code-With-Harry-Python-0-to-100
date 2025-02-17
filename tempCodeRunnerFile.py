@@ -1,0 +1,1 @@
+ '''Takes in a n umber n, returns the square of n'''

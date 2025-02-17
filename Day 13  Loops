@@ -1,0 +1,97 @@
+name = 'Abhishek'
+for i in name:
+    print(i, end=", ")
+
+a = ' amitoj singh'
+for i in a:
+    print(a , end = " , ")
+
+# Iterting objects on list  
+color = [ "Red" , "Green" , "Blue"]
+for x in color:
+    print(x)
+
+# color = "amitoj" #only give string 
+# for character in color:
+#     print(character)
+
+# f = ["apple" , "orange" , "mango"] #provide list 
+# for character in f:
+#     print(character)
+
+# for i in range(5):
+#     print(i)
+
+# for i in range( 2 , 9):
+#     print(i)
+
+# for x in range (3 , 5 , 7):
+#     print(x)
+
+
+# for  k in range(5):
+#     print(k + 1)
+
+# for i in range( 1 , 12 , 3):
+#     print(i)
+
+# for k in range( 1 , 40 , 3):
+#     print(k)
+
+# While Loop
+# count = 5
+# while(count > 0):
+#     print(count)
+#     count = count -1
+
+# count = 5
+# while(count > 0):
+#     print(count)
+#     # count = count - 1
+# else :
+#     print("this number is not existed")
+
+# a = int(input("Enter the number"))
+# while(a <= 40):
+#     a = int(input("Enter the number"))
+#     print(a)
+# else :
+#     print("loop should be executed from the statement")
+
+
+# i = 1
+# while True:
+#   print(i)
+#   if i == 3:
+#     break
+#   i += 1
+#   print("yes this is true")
+
+# break statement
+for i in range(1 , 101 , 1 ):
+    print(i , end= " ")
+    if(i == 50):
+        break
+    else:
+        print("Mississippi")
+        print("Thank You")
+
+    # continue statement
+    for m in [2 , 3 , 4 ,5 , 6, 8, 0]:
+        if(m%2 != 0):
+            continue
+        print(m)
+
+for i in range(12):
+    if(i == 10):
+      print("Skip the iteration")
+      continue
+    print("5 X", i, "=", 5 * i)
+
+g = 0
+while True:
+    print(g) 
+    g = g+1
+    if(g % 100 == 0):
+         break
+
