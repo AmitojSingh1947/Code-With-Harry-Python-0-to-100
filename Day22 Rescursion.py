@@ -1,0 +1,12 @@
+ print(colors.index("red"))
+# print(colors.index("green"))
+print(colors.count("green"))
+print(colors.count("blue"))
+print(colors.count("Orange"))
+print(newlist)
+# append Method Used
+colors.append("pink")
+colors.append("yellow")
+colors.append("black")
+colors.append("white")
+colors.append("purple")
